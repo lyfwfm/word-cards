@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# 注意：package-lock.json 需要推送到 GitHub Actions 构建！
 
 # Build output
 www/build/
