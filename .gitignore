@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+www/build/
+dist/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/capacitor-cordova-android-plugins/
+*.apk
+*.aab
+*.dex
+
+# iOS
+ios/App/Pods/
+ios/App/build/
+*.ipa
+*.dSYM.zip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test
+coverage/
+
+# Temporary
+*.tmp
+*.temp
